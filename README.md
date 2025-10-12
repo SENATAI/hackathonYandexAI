@@ -45,14 +45,7 @@
 **Метрика качества — ROC-AUC (macro)** :
 
 ```
-score=
-```
-### 1
-
-### 2
-
-```
-(ROC_AUC(week_churn) +ROC_AUC(month_churn))
+score=0.5*(ROC_AUC(week_churn)+ROC_AUC(month_churn))
 ```
 ## Формат отправки
 
